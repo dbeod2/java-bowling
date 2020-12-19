@@ -14,7 +14,7 @@ public class Answers {
     }
 
     public List<Answer> add(Answer answer) {
-        this.answers.add(answer);
+        answers.add(answer);
         return Collections.unmodifiableList(answers);
     }
 
